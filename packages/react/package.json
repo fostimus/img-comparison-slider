@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "npm run clean && npm run compile",
+    "build:watch": "npm run clean && npm run watch",
     "clean": "rimraf dist",
     "compile": "tsc",
     "watch": "tsc --watch",
@@ -24,6 +25,6 @@
     "access": "public"
   },
   "dependencies": {
-    "img-comparison-slider": "~8.0.0"
+    "@fostimus/img-comparison-slider": "^8.0.2"
   }
 }

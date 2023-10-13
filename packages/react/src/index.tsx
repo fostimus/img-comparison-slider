@@ -6,7 +6,7 @@ import React, {
 } from 'react';
 
 if (typeof document !== 'undefined') {
-  import('img-comparison-slider');
+  import('@fostimus/img-comparison-slider');
 }
 
 type HTMLImgComparisonSliderElement = HTMLElement & {
@@ -31,7 +31,8 @@ export const ImgComparisonSlider: FC<ImgComparisonSliderProps> = ({
   onSlide,
   ...props
 }: PropsWithChildren<ImgComparisonSliderProps>) => {
-  const ref = React.createRef<HTMLImgComparisonSliderElement>();
+  const ref = React.createRef<HTMLImgComparisonSliderElement>();  
+
   React.useEffect(() => {
     if (props.value !== undefined) {
       ref.current.value = parseFloat(props.value.toString());
