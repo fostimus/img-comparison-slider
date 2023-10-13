@@ -1,6 +1,6 @@
 {
-  "name": "img-comparison-slider",
-  "version": "8.0.1",
+  "name": "@fostimus/img-comparison-slider",
+  "version": "8.0.2",
   "description": "Slider component to compare images before and after",
   "homepage": "https://img-comparison-slider.sneas.io",
   "main": "dist/index.js",
@@ -23,7 +23,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sneas/img-comparison-slider.git"
+    "url": "git+https://github.com/sneas/img-comparison-slider.git"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/sneas/img-comparison-slider/issues"
+  },
+  "author": "fostimus",
+  "publishConfig": {
+    "access": "public"
+  }
 }
