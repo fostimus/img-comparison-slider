@@ -220,7 +220,7 @@ export class HTMLImgComparisonSliderElement extends HTMLElement {
     );
   }
 
-  private slide(increment = 0) {
+  public slide(increment = 0) {
     this.setExposure(increment);
 
     const event = new Event('slide');
